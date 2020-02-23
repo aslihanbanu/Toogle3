@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SlidenavComponent } from './slidenav/slidenav.component';
+import { ProfilimComponent } from './profilim/profilim.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SlidenavComponent,
+    ProfilimComponent
   ],
   imports: [
     BrowserModule,

@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "toogle3": {
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "toogle3"
+    }
+  },
+  "defaultProject": "toogle3",
+  "cli": {
+    "analytics": "a2c30312-8d7f-4712-a9d2-b93053c75e72"
+  }
 }
